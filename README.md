@@ -1,13 +1,5 @@
 # Population Genomics of *Ewingella americana*: Taxonomic Reassessment, Clonal Structure, Pan-Genome Diversity and Mobile Genetic Elements
 
-**Author:** Asweshvaran R.  
-**Affiliation:** Department of Microbiology, Shriram Research Institute, Bengaluru, Karnataka, India  
-**Correspondence:** `asweshvaran.r@gmail.com`  
-**Submitted to:** *Antonie van Leeuwenhoek* (Journal of Microbiology), Springer Nature  
-**License:** MIT License  
-
----
-
 ## Overview
 
 *Ewingella americana* (family *Yersiniaceae*, NCBI Taxon ID: 41202) is a bacterial pathogen with a dual ecological profile: it acts as an opportunistic pathogen in clinical settings and serves as the primary etiological agent of internal stipe browning rot in commercially cultivated mushrooms (*Flammulina filiformis* and *Agaricus bisporus*).
@@ -126,4 +118,3 @@ Department of Microbiology
 Shriram Research Institute  
 14–15, Sadarmangala Industrial Area, Whitefield Road,  
 Bengaluru 560048, Karnataka, India  
-Email: `asweshvaran.r@gmail.com`
