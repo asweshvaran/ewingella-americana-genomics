@@ -1,0 +1,227 @@
+IQ-TREE 2.0.7 built Apr  1 2024
+
+Input file name: /mnt/d/Ewingella_americana_research/FINAL_JAM_SUBMISSION/Phylogeny_Q1/core_aa_validation.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 918425
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 31 sequences with 120790 amino-acid sites
+Number of constant sites: 119580 (= 98.9983% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 119580 (= 98.9983% of all sites)
+Number of parsimony informative sites: 649
+Number of distinct site patterns: 637
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+F+I
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+F+I         -359069.902  718209.803 +        1  718209.824 +        1  718549.367 +        1
+LG+F+I          -359270.164  718610.329 - 1.06e-87  718610.349 - 1.06e-87  718949.892 - 1.06e-87
+WAG+F+I         -359277.628  718625.256 -  6.1e-91  718625.277 -  6.1e-91  718964.819 -  6.1e-91
+JTT+I           -360683.222  721398.444 -        0  721398.449 -        0  721553.673 -        0
+LG+I            -360954.279  721940.557 -        0  721940.562 -        0  722095.786 -        0
+LG+R4           -360953.192  721948.384 -        0  721948.391 -        0  722152.122 -        0
+LG+R5           -360953.182  721952.363 -        0  721952.372 -        0  722175.505 -        0
+LG+R3           -361054.874  722147.748 -        0  722147.754 -        0  722332.082 -        0
+LG+I+G4         -361130.518  722295.035 -        0  722295.040 -        0  722459.966 -        0
+WAG+I           -361265.123  722562.245 -        0  722562.250 -        0  722717.474 -        0
+LG+G4           -361339.723  722711.446 -        0  722711.450 -        0  722866.675 -        0
+LG+R2           -361520.686  723075.372 -        0  723075.377 -        0  723240.303 -        0
+LG              -361691.890  723413.780 -        0  723413.784 -        0  723559.307 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+F+I
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0987
+  pi(R) = 0.0527
+  pi(N) = 0.0368
+  pi(D) = 0.0550
+  pi(C) = 0.0095
+  pi(Q) = 0.0465
+  pi(E) = 0.0571
+  pi(G) = 0.0770
+  pi(H) = 0.0226
+  pi(I) = 0.0573
+  pi(L) = 0.1073
+  pi(K) = 0.0455
+  pi(M) = 0.0282
+  pi(F) = 0.0373
+  pi(P) = 0.0453
+  pi(S) = 0.0586
+  pi(T) = 0.0514
+  pi(W) = 0.0125
+  pi(Y) = 0.0270
+  pi(V) = 0.0739
+
+Model of rate heterogeneity: Invar
+Proportion of invariable sites: 0.9705
+
+ Category  Relative_rate  Proportion
+  0         0              0.9705
+  1         33.9540        0.0295
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -359069.9016 (s.e. 370.2766)
+Unconstrained log-likelihood (without tree): -357198.8114
+Number of free parameters (#branches + #model parameters): 35
+Akaike information criterion (AIC) score: 718209.8032
+Corrected Akaike information criterion (AICc) score: 718209.8241
+Bayesian information criterion (BIC) score: 718549.3665
+
+Total tree length (sum of branch lengths): 0.0126
+Sum of internal branch lengths: 0.0021 (16.7604% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCF_054058535.1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**GCF_054058535.1
+|
++**GCF_054057715.1
+|
+|                                +**GCF_008693045.1
+|              +-----------------| (100/100)
+|              |                 +**GCF_000735345.1
++--------------| (100/100)
+               |     +----------GCF_057314615.1
+               |  +--| (78.2/76)
+               |  |  |                     +**GCF_022655415.1
+               |  |  |  +------------------| (100/100)
+               |  |  |  |                  +**GCF_022654595.1
+               |  |  +--| (77.4/72)
+               |  |     +---------------GCF_009668135.1
+               +--| (82.1/80)
+                  +-----------------------------------------GCF_014233485.1
+
+Tree in newick format:
+
+(GCF_054058535.1:0.0000008279,GCF_054057715.1:0.0000008279,((GCF_008693045.1:0.0000008279,GCF_000735345.1:0.0000008279)100/100:0.0017510337,((GCF_057314615.1:0.0011232388,((GCF_022655415.1:0.0000008279,GCF_022654595.1:0.0000008279)100/100:0.0019014016,GCF_009668135.1:0.0016221402)77.4/72:0.0002314986)78.2/76:0.0001501211,GCF_014233485.1:0.0040614248)82.1/80:0.0001949805)100/100:0.0015303783);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -359070.58554616
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++**GCF_054058535.1
+|
+|                                                     +**GCF_054057715.1
+|                                                  +**|
+|                                                  |  |                                +**GCF_008693045.1
+|                                                  |  |              +-----------------| (100)
+|                                                  |  |              |                 +**GCF_000735345.1
+|                                                  |  +--------------| (100)
+|                                                  |                 |     +----------GCF_057314615.1
+|                                                  |                 |  +--| (76)
+|                                                  |                 |  |  |                                 +**GCF_022655415.1
+|                                                  |                 |  |  |                              +**|
+|                                                  |                 |  |  |                              |  +**GCF_022649345.1
+|                                                  |                 |  |  |                           +**|
+|                                                  |                 |  |  |                           |  +**GCF_022647985.1
+|                                                  |                 |  |  |                        +**|
+|                                                  |                 |  |  |                        |  +**GCF_022654355.1
+|                                                  |                 |  |  |                     +**|
+|                                                  |                 |  |  |                     |  +**GCF_022649085.1
+|                                                  |                 |  |  |  +------------------| (100)
+|                                                  |                 |  |  |  |                  +**GCF_022654595.1
+|                                                  |                 |  |  +--| (72)
+|                                                  |                 |  |     +---------------GCF_009668135.1
+|                                                  |                 +--| (80)
+|                                                  |                    +-----------------------------------------GCF_014233485.1
+|                                               +**|
+|                                               |  +**GCF_054059715.1
+|                                            +**|
+|                                            |  +**GCF_054061315.1
+|                                         +**|
+|                                         |  +**GCF_054061435.1
+|                                      +**|
+|                                      |  +**GCF_056280585.1
+|                                   +**|
+|                                   |  +**GCF_054059645.1
+|                                +**|
+|                                |  +**GCF_054058515.1
+|                             +**|
+|                             |  +**GCF_054059635.1
+|                          +**|
+|                          |  +**GCF_054058715.1
+|                       +**|
+|                       |  +**GCF_054058475.1
+|                    +**|
+|                    |  +**GCF_054061495.1
+|                 +**|
+|                 |  +**GCF_054061535.1
+|              +**|
+|              |  +**GCF_054059895.1
+|           +**|
+|           |  +**GCF_054062235.1
+|        +**|
+|        |  +**GCF_054061955.1
+|     +**|
+|     |  +**GCF_054059765.1
+|  +**|
+|  |  +**GCF_054059875.1
++**|
+|  +**GCF_054059975.1
+|
++**GCF_054057815.1
+
+
+Consensus tree in newick format: 
+
+(GCF_054058535.1:0.0000000000,((((((((((((((((((GCF_054057715.1:0.0000017593,((GCF_008693045.1:0.0000017593,GCF_000735345.1:0.0000017593)100:0.0017515320,((GCF_057314615.1:0.0011242009,((((((GCF_022655415.1:0.0000000000,GCF_022649345.1:0.0000000000):0.0000000000,GCF_022647985.1:0.0000000000):0.0000000000,GCF_022654355.1:0.0000000000):0.0000000000,GCF_022649085.1:0.0000000000):0.0000017593,GCF_022654595.1:0.0000017593)100:0.0019020781,GCF_009668135.1:0.0016226815)72:0.0002317882)76:0.0001498039,GCF_014233485.1:0.0040624177)80:0.0001949634)100:0.0015308408):0.0000017593,GCF_054059715.1:0.0000000000):0.0000000000,GCF_054061315.1:0.0000000000):0.0000000000,GCF_054061435.1:0.0000000000):0.0000000000,GCF_056280585.1:0.0000000000):0.0000000000,GCF_054059645.1:0.0000000000):0.0000000000,GCF_054058515.1:0.0000000000):0.0000000000,GCF_054059635.1:0.0000000000):0.0000000000,GCF_054058715.1:0.0000000000):0.0000000000,GCF_054058475.1:0.0000000000):0.0000000000,GCF_054061495.1:0.0000000000):0.0000000000,GCF_054061535.1:0.0000000000):0.0000000000,GCF_054059895.1:0.0000000000):0.0000000000,GCF_054062235.1:0.0000000000):0.0000000000,GCF_054061955.1:0.0000000000):0.0000000000,GCF_054059765.1:0.0000000000):0.0000000000,GCF_054059875.1:0.0000000000):0.0000000000,GCF_054059975.1:0.0000000000):0.0000000000,GCF_054057815.1:0.0000000000);
+
+TIME STAMP
+----------
+
+Date and time: Wed Nov 18 12:56:47 2026
+Total CPU time used: 97.721183 seconds (0h:1m:37s)
+Total wall-clock time used: 13.76041321 seconds (0h:0m:13s)
+
